@@ -27,9 +27,6 @@ public class Car {
     private GearKey gearStatus;
     //움직임 상태
     private MoveStatus moveStatus;
-    public Car(Engine engine) {
-        this.engine = engine;
-    }
 
     //시동걸기
     public void startEngine() {
