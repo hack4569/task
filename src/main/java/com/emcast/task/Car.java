@@ -1,5 +1,6 @@
 package com.emcast.task;
 
+import com.emcast.task.moving.Moving;
 import com.emcast.task.engine.Engine;
 import com.emcast.task.enumeration.GearKey;
 import com.emcast.task.enumeration.MoveStatus;

@@ -1,5 +1,6 @@
-package com.emcast.task;
+package com.emcast.task.moving;
 
+import com.emcast.task.Car;
 import com.emcast.task.enumeration.MoveStatus;
 
 public interface Moving {

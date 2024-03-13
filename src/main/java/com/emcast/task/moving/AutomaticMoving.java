@@ -1,10 +1,11 @@
-package com.emcast.task;
+package com.emcast.task.moving;
 
+import com.emcast.task.Car;
 import com.emcast.task.enumeration.GearKey;
 import com.emcast.task.enumeration.MoveStatus;
 import com.emcast.task.exception.CarException;
 
-public class AutomaticMoving implements Moving{
+public class AutomaticMoving implements Moving {
     @Override
     public MoveStatus move(Car car) {
         if (GearKey.N == car.getGearStatus()) {
